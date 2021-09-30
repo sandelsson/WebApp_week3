@@ -16,14 +16,12 @@ function initializeCode() {
 var container_div = document.createElement("div");
 container_div.className = "container";
 
-for (let x = 0; x < 5; x++) {
+for (var x = 0; x < 5; x++) {
   fetch("https://dog.ceo/api/breed/chihuahua/images/random")
     .then((response) => response.json())
     .then((data) => {
-      //console.log(data);
       let picture = data.message;
       let breed = "Chihuahua";
-      //console.log(picture);
       create_elements(breed, picture);
     });
 }
