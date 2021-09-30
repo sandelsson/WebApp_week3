@@ -1,2 +1,3 @@
-# WebApp_week3
-Created with CodeSandbox
+# vanilla-template
+
+This is a template for weekly assignments.
